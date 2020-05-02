@@ -1,0 +1,7 @@
+INSERT INTO dbo.Todo
+(Title, Description, Complete, ExpiredDate, isDone)
+VALUES('Title A', 'Description A', 0, getdate() + 7, 0);
+
+INSERT INTO dbo.Todo
+(Title, Description, Complete, ExpiredDate, isDone)
+VALUES('Title B', 'Description B', 0, getdate() + 7, 0);

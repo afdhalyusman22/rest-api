@@ -1,0 +1,9 @@
+
+CREATE TABLE Todo (
+	Id int not null identity primary key,
+	Title varchar(50) null,
+	Description varchar(max) null,
+	Complete int null,
+	ExpiredDate datetime null,
+	isDone bit null
+);
